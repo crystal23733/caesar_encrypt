@@ -2,6 +2,7 @@
 *.exe
 *.output
 *.o
+*.swp
 
 #Mac전용 확장자 파일 제외하고 무시
 *!.c
