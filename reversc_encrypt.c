@@ -20,5 +20,9 @@ int main(void) {
 char encrypt(char enc) {
   if (enc >= 'A' && enc <= 'Z') {
     return ((enc - 'A' - SHIFT) % 26 + 'A');
+  } else if (enc >= 'a' && enc <= 'z') {
+    return ((enc - 'a' - SHIFT) % 26 + 'a');
+  } else {
+    return enc;
   }
 }
